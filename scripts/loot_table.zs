@@ -9,21 +9,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;  
 
-//往地牢箱子中加入(禁用)
-/*
-val mwTable1 = LootTweaker.getTable("minecraft:chests/simple_dungeon");
-val MwChestTableMainPool = mwTable1.getPool("main");
-MwChestTableMainPool.addItemEntry(<hbm:gun_ks23>,100);
-MwChestTableMainPool.addItemEntry(<hbm:gun_deagle>,100);
-MwChestTableMainPool.addItemEntryHelper(<hbm:gun_thompson>,100,1,[Functions.setNBT({display:{Name:"汤姆逊冲锋枪"}})],[]);
-MwChestTableMainPool.addItemEntry(<hbm:gun_revolver_iron>,100);
-MwChestTableMainPool.addItemEntryHelper(<hbm:ammo_50ae>,200,1,[Functions.setCount(3, 8)],[]);
-MwChestTableMainPool.addItemEntryHelper(<hbm:ammo_9mm>,200,1,[Functions.setCount(10, 40)],[]);
-MwChestTableMainPool.addItemEntryHelper(<hbm:ammo_4gauge>,200,1,[Functions.setCount(4, 10)],[]);
-MwChestTableMainPool.addItemEntryHelper(<hbm:ammo_22lr>,200,1,[Functions.setCount(10, 40)],[]);
-MwChestTableMainPool.addItemEntryHelper(<hbm:grenade_frag>,400,1,[Functions.setCount(1, 6)],[]);
-*/
-
 //现代战争军需箱
 //武器类
 val MwChestTable = LootTweaker.newTable("loottweaker:mwchest_loot_table");
